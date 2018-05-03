@@ -1,0 +1,55 @@
+.Harry{width: 200px;
+      height: 100px;
+      float: left;
+      border-radius: 30%;
+      align="center"}
+name{color: #8B08B;
+     margin: 70px;
+     font-weight: bolder;
+     font-size: 160%;}
+.CuadroUp{clear: both;}
+.Letra{align="center"}
+.CuadroUp{width: 100%;
+          overflow: hidden;
+          background-color: powderblue;
+          padding-left: 15px;
+          padding-bottom: 15px;
+          margin-right: 10px;
+          margin:2px;
+          position: relative;
+          }
+.CuadroLatder{width: 69%;
+             height: 400px;
+             float: right;
+             position: relative;
+             margin-left: auto;
+             background-color: #b43a61;
+             padding-left: 15px;
+             display:inline-block;
+             }
+.CuadroLat{width: 200px;
+           height: 200px;
+           float: left;
+           background-color: #ece31a;
+           padding-left: 15px;
+           display:inline-block;
+           position: relative;
+           }
+.CuadroLat2{width: 200px;
+            height: 200px;
+            float: left;
+            background-color: #9669bd;
+            padding-left: 15px;
+            position: relative;
+            display:inline-block;
+            }
+footer{width: 100%;
+      overflow: hidden;
+      background-color: powderblue;
+      padding-left: 15px;
+      padding-bottom: 15px;
+      margin-right: 10px;
+      margin:2px;
+      position: relative;
+      border-radius: 30%;
+}

@@ -1,0 +1,117 @@
+@font-face{
+    font-family: puzzle;
+    src: url("puzzle.ttf");
+}
+
+@font-face{
+    font-family: clock;
+    src: url("alarm_clock.ttf");
+}
+@font-face{
+    font-family: SweetHipster;
+    src: url("SweetHipster.ttf");
+}
+@font-face{
+    font-family: Score;
+    src: url("Score.ttf");
+}
+body{
+	background-image: url(fondo.jpeg);
+  height: 100%;
+}
+
+p#title{
+	font-family: puzzle;
+	font-size: 60px;
+	color:  #d4ac0d ;
+	cursor: default;
+}
+
+p#name{
+	font-family: SweetHipster;
+	font-size: 50px;
+	color: black;
+	position: absolute;
+	top: 70px;
+	left: 265px;
+	cursor: default;
+}
+
+p#timer{
+	font-family: clock;
+	position: absolute;
+	top: 565px;
+	left: 50px;
+	font-size: 20px;
+	color: black;
+  font-style: : solid;
+	border: 4px solid #76448a;
+	cursor: default;
+}
+
+.button{
+	border: 2px solid #76448a;
+	border-radius: 7%;
+	color: #76448a;
+	text-align: center;
+	font-size: 45px;
+	cursor: pointer;
+	font-family: Score;
+	position: absolute;
+	top: 327px;
+	left: 70px;
+}
+
+.button:hover {
+  background-color: firebrick;
+  color: #76448a;
+}
+
+p#winner{
+	font-family: clock;
+	position: absolute;
+	top: 565px;
+	left: 50px;
+	font-size: 20px;
+	color: white;
+	border: 4px solid #76448a;
+}
+
+div.mainslider{
+	position: absolute;
+	top: 30px;
+	left: 600px;
+}
+
+img.slide{
+	cursor: pointer;
+}
+
+img#winner{
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	overflow: auto;
+	cursor: pointer;
+}
+
+img#imageType{
+	position:absolute;
+	width: 300px;
+	height: 200px;
+	top: 370px;
+	left: 50px;
+	border: 3px solid #76448a;
+}
+
+canvas{
+	position: absolute;
+  top: 210px;
+	left: 500px;
+  width: 700px;
+  height:500px;
+  background-color: black;
+}

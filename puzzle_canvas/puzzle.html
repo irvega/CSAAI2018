@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Puzzle's Web</title>
+    <link rel="stylesheet" href="puzzle.css">
+    <script src="puzzle_new.js"></script>
+</head>
+
+<body onload="init();">
+  <div class="mainslider">
+    <img onclick="displayID(this)" class="box1" id="noticia" src="noticia.jpg" width="200px" height="140px">
+    <img onclick="displayID(this)" class="box2" id="bici" src="bici.jpg" width="200px" height="140px">
+    <img onclick="displayID(this)" class="box3" id="harry" src="harry.jpg" width="200px" height="140px">
+    <img onclick="displayID(this)" class="box1" id="anteto" src="anteto.jpg" width="200px" height="140px">
+    <img onclick="displayID(this)" class="box2" id="manjar" src="manjar.jpg" width="200px" height="140px">
+    <img onclick="displayID(this)" class="box3" id="park" src="park.jpg" width="200px" height="140px">
+    <img onclick="displayID(this)" class="box1" id="bosque" src="bosque.jpg" width="200px" height="140px">
+    <img onclick="displayID(this)" class="box2" id="kawhi" src="kawhi.jpg" width="200px" height="140px">
+    <img onclick="displayID(this)" class="box3" id="playa" src="playa.jpg" width="200px" height="140px">
+  </div>
+
+  <p id="title"> Puzzles <p>
+  <p id="name"> Irene Vega </p>
+  <p id="timer"> TIME  <span id="counter">0:0:0</span></p>
+  <button class="button" onclick="showhighscore()"> HIGHSCORES: </button>
+  <center>
+    <img id="imageType" src="harry.jpg" width="500px" height="300px">
+    <canvas id="canvas"></canvas>
+  </center>
+  <div id="slider"></div>
+</body>
+</html>

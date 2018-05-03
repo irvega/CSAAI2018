@@ -1,0 +1,111 @@
+
+@font-face {
+  font-family: title;
+  src: url("letra.ttf");
+}
+@font-face {
+  font-family: controls;
+  src: url("controls.ttf");
+}
+@font-face {
+  font-family: letter;
+  src: url("letter.TTF");
+}
+@font-face {
+  font-family: time;
+  src: url("time.TTF");
+}
+h1 {
+  text-align: center;
+  font-size: 100px;
+  font-family: "title";
+  color: black;
+  font-weight: normal;
+  margin-top: 0.5%;
+  margin-bottom: 0%;
+}
+
+h2 {
+  font-family: time;
+  text-align: center;
+  font-size: 20px;
+  color: black;
+  font-weight: normal;
+  margin-top: 0%;
+  margin-bottom: 0%;
+}
+
+canvas {
+    padding-left: 0;
+    padding-right: 0;
+    margin-top: 1%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+#controls {
+  text-align: center;
+}
+
+#play-pause {
+  font-size: 50px;
+  font-family: controls;
+  color: black;
+  font-size: 20px;
+  padding: 7px 20px 10px 20px;
+  border: solid #427fa9  6px;
+  cursor:pointer; cursor: hand;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 1%;
+}
+
+#mute {
+  font-size: 50px;
+  font-family: controls;
+  color: black;
+  font-size: 20px;
+  padding: 7px 20px 10px 20px;
+  border: solid #427fa9 6px;
+  cursor:pointer; cursor: hand;
+  text-decoration: none;
+  border-radius: 5px;
+}
+#time-bar {
+  margin-top: 1%;
+  width: 450px;
+  height: 3px;
+  cursor: pointer;
+  animate: 0.2s;
+  box-shadow: 1px 1px 1px #000000;
+  border: 1px solid #000000;
+  background: grey;
+  border-radius: 5px;
+
+}
+
+#volume-bar {
+  margin-top: 1%;
+  width: 50px;
+  height: 3px;
+  cursor: pointer;
+  animate: 0.2s;
+  box-shadow: 1px 1px 1px #000000;
+  background: grey;
+  border-radius: 5px;
+  border: 1px solid #000000;
+}
+
+#text1 {
+  text-align: center;
+  font-size: 50px;
+  font-family: letter;
+  color: black;
+  margin-top: 5%;
+  margin-bottom: 3%;
+}
+
+#camaras {
+  text-align: center;
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Realizador TV</title>
+    <script src="tv.js"></script>
+    <link rel="stylesheet" href="tv.css">
+  </head>
+  <body onload="init()">
+    <p id="text1">SELECCIONA UNA CAMARA:</p>
+    <div id="camaras">
+      <video id = "aux1" type="video/mp4" src="video1.mp4"
+      width="15%" height="15%" muted="true" onclick="chooseCam(1)"></video>
+      <video id = "aux2" type="video/mp4" src="video2.mp4"
+      width="15%" height="15%" muted="true" onclick="chooseCam(2)"></video>
+      <video id = "aux3" type="video/mp4" src="video3.mp4"
+      width="15%" height="15%" muted="true" onclick="chooseCam(3)"></video>
+      <video id = "aux4" type="video/mp4" src="video4.mp4"
+      width="15%" height="15%" muted="true" onclick="chooseCam(4)"></video>
+    </div>
+    <h1>Realizador TV</h1>
+    <canvas id="canvas" width="500" height="300"></canvas>
+    <div id="controls">
+      <button type="button" id="play-pause" onclick="Play()">P</button>
+      <input type="range" id="time-bar" min="0" max="100" step="1" value="0">
+      <button type="button" id="mute" onclick="Mute()">Q</button>
+      <input type="range" id="volume-bar" min="0" max="1" step="0.1" value="1">
+    </div>
+    <h2 id="counter">00:00</h2>
+  </body>
+</html>

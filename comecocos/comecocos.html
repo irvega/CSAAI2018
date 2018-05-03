@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="comecocos.css">
+        <title>Pac-man</title>
+        <style>
+            body {
+                background-image: url("fondo.jpg");
+                height: 100%
+                width: 100%;
+            }
+        </style>
+    </head>
+    <body onload="startGame()">
+      <div id="slider"></div>
+      <div class="mainslider">
+        <p id="choose"> Choose the color: </p>
+        <div class="change">
+        <img ondragstart="drag(event)" draggable="true" id="red" src="redA.png" width="50px" height="40px">
+        <img ondragstart="drag(event)"  draggable="true"  id="orange"   src="orangeA.png" width="50px" height="40px">
+        <img ondragstart="drag(event)" draggable="true" id="azul" src="azulA.png" width="50px" height="40px">
+        </div>
+        <div id="recuadro" ondrop="drop(event)" ondragover="allowDrop(event)">
+          <img id="amarillo" draggable="true" ondragstart="drag(event)" src="amarilloA.png" width="100px" height="100px">
+        </div>
+        <button type="button" onclick="buttonStart()">Start</button>
+        <button type="button" onclick="buttonPause()">Pause/Restart</button>
+        <div id="higUser">USER HIGHSCORE: <br><p id="hUser"> </p></div><br>
+        <div id="higSession">SESSION HIGHSCORE: <p id="hSession"></div>
+      </div>
+        <p id="timer"> TIME  <span id="counter">0:0:0</span></p>
+        <div class="titulo">
+          </div>
+
+        <canvas id="game" width="700" height="500"></canvas>
+
+    <script type="text/javascript" src="comecocos.js"></script>
+    </body>
+</html>
